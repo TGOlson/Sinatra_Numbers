@@ -1,4 +1,4 @@
 
 
-web: bundle exec ruby basic.rb -p $PORT
+web: bundle exec ruby basics.rb -p $PORT
 
