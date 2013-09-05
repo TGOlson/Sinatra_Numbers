@@ -1,6 +1,6 @@
 require 'rubygems'
 require 'sinatra'
-require '../class_integer/lib/class_Integer'
+require './lib/class_Integer'
 
 get '/' do
   "Hello, World!"	
