@@ -1,7 +1,11 @@
-<p>Type in a number and hit submit.</p> 
-<form action="/english_number" method="post">  
-  <input type="text" name="number">  
-  <input type="submit">  
-</form>
+<div id="nums">
+	<p>Type in a number and hit submit.</p> 
+	<form action="/english_number" method="post">  
+ 	 <input type="text" name="number">  
+ 	 <input type="submit">  
+	</form>
 
-<%= @num %>
+	<p id="plain"><%= @num %></p>
+	<p id="english"><%= @enum %></p>
+
+</div>

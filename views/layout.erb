@@ -1,0 +1,25 @@
+    <!doctype html>  
+    <html lang="en">  
+    <head>  
+      <meta charset="utf8">  
+      <title><%= @title + ' | TGO '%></title>  
+      <link href="/reset.css" rel="stylesheet">  
+      <link href="/style.css" rel="stylesheet">  
+    </head>  
+    <body>  
+      <header>  
+        <hgroup>  
+          <h1><a href="/english_number">English Numbers</a></h1>  
+          <h2>Convert numbers to words.</h2>  
+        </hgroup>  
+      </header>  
+      
+      <div id="main">  
+        <%= yield %>  
+      </div>  
+      
+      <footer>  
+        <p><small>Created by <a href="http://tgolson.com" target="_blank">Tyler Olson</a></small></p>  
+      </footer>  
+    </body>  
+    </html> 

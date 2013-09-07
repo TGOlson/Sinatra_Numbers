@@ -40,11 +40,14 @@ get '/decrypt/:secret' do
 end
 
 get '/english_number' do 
+  @title = 'English Numbers' 
   erb :english_number
 end
 
 post '/english_number' do 
-  @num = "#{params[:number].to_i.to_english}"
+  @title = 'English Numbers'
+  @num = params[:number].to_s.gsub(/(?<=\d)(?=(?:\d{3})+\z)/, ',')
+  @enum = "#{params[:number].to_i.to_english}"
   erb :english_number
 end
 
