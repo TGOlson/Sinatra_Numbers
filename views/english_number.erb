@@ -1,9 +1,11 @@
 <div id="nums">
+  <div id="form_style">
 	<p>Type in a number and hit submit.</p> 
 	<form action="/english_number" method="post">  
  	 <input type="text" name="number">  
- 	 <input type="submit">  
+ 	 <input type="submit" value="Submit">  
 	</form>
+  </div>
 
 	<p id="plain"><%= @num %></p>
 	<p id="english"><%= @enum %></p>

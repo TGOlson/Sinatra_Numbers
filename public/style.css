@@ -1,36 +1,43 @@
     body {  
-        margin: 35px auto;  
-        width: 640px;  
+        margin: 0px auto;
+        background-color: #5C33AD;
     }  
       
     header {  
-        text-align: center;  
-        margin: 0 0 20px;  
+        text-align: center;
+        padding: 30px 0px 20px; 
+        background-color: #9980CC;
     }  
       
     header h1 {  
         display: inline;  
-        font-size: 32px;  
+        font-size: 70px;  
+        color: #ffffff;
+        font-weight: normal;
     }  
       
     header h1 a:link, header h1 a:visited {  
-        color: #444;  
+        color: #ffffff;  
         text-decoration: none;  
     }  
       
     header h2 {  
-        font-size: 16px;  
+        font-size: 25px;  
         font-style: italic;  
-        color: #999;  
+        color: #C2B2D1;  
+        font-weight: normal;
+
     }  
+
+    #form_style {
+       padding: 40px 0px 30px; 
+       background-color: #9980CC;
+       color: #fff;
+    }
       
     #main {  
         margin: 0 0 20px;  
     }  
-
-    footer {
-        text-align: right;
-    }
 
     #nums {
         text-align: center;
@@ -38,96 +45,26 @@
 
     #plain {
         margin-top: 30px;
-        font-size: 50px;
-        color: #330066;
+        font-size: 40px;
+        color: #C2B2D1;
+        padding: 5px 10px 5px 10px;
+
     }
 
     #english {
         margin-top: 10px;
-        font-size: 50px;
-        color: #fff;
-        background-color: #330066;
+        font-size: 40px;
+        color: #330066;
+        padding: 5px 10px 5px 10px;
     }
       
-    #add {  
-        margin: 0 0 20px;  
-    }  
-      
-    #add textarea {  
-        height: 30px;  
-        width: 510px;  
-        padding: 10px;  
-        border: 1px solid #ddd;  
-    }  
-      
-    #add input {  
-        height: 50px;  
-        width: 100px;  
-        margin: -50px 0 0;  
-        border: 1px solid #ddd;  
-        background: white;  
-    }  
-      
-    #edit textarea {  
-        height: 30px;  
-        width: 480px;  
-        padding: 10px;  
-        border: 1px solid #ddd;  
-    }  
-      
-    #edit input[type=submit] {  
-        height: 50px;  
-        width: 100px;  
-        margin: -50px 0 0;  
-        border: 1px solid #ddd;  
-        background: white;  
-    }  
-      
-    #edit input[type=checkbox] {  
-        height: 50px;  
-        width: 20px;  
-    }  
-      
-    article {  
-        border: 1px solid #eee;  
-        border-top: none;  
-        padding: 15px 10px;  
-    }  
-      
-    article:first-of-type {  
-        border: 1px solid #eee;  
-    }  
-      
-    article:nth-child(even) {  
-        background: #fafafa;  
-    }  
-      
-    article.complete {  
-        background: #fedae3;  
-    }  
-      
-    article span {  
-        font-size: 0.8em;  
-    }  
-      
     p {  
-        margin: 0 0 5px;  
-    }  
-      
-    .meta {  
-        font-size: 0.8em;  
-        font-style: italic;  
-        color: #888;  
-    }  
-      
-    .links {  
-        font-size: 1.8em;  
-        line-height: 0.8em;  
-        float: rightright;  
-        margin: -10px 0 0;  
-    }  
-      
-    .links a {  
-        display: block;  
-        text-decoration: none;  
-    }  
+        margin: 0 0 5px;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 10px;
+        right: 50px;
+        color: #C2B2D1;
+    }
