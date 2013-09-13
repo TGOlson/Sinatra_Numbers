@@ -21,7 +21,7 @@ end
 
 post '/english_number' do 
   @title = 'English Numbers'
-  @num = params[:number].to_s.gsub(/(?<=\d)(?=(?:\d{3})+\z)/, ',')
+  @num = params[:number].to_i.add_commas
   @enum = "#{params[:number].to_i.to_english}"
   erb :english_number
 end
