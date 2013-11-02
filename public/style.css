@@ -39,7 +39,7 @@ header h2 {
     display: inline-block;
     border-radius: 0px;
     border: 0px;
-    background-color: #C2B2D1;
+    background-color: #fff;
     font-size: 20px;
 }
 
@@ -48,6 +48,7 @@ input:focus {
 }
 
 .submit {
+    background-color: #C2B2D1;
     color: #5C33AD;
     cursor: pointer;
 }
