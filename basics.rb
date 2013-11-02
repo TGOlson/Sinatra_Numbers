@@ -18,9 +18,5 @@ get '/number/:number' do
 end
 
 get '/*' do
-  redirect "/number/#{rand(1...(10**12))}"
+  redirect "/number/#{rand(10**14)}"
 end
-
-# not_found do 
-#   halt 404, 'page not found'
-# end

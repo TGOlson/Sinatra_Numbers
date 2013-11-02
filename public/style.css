@@ -1,40 +1,40 @@
-    body {  
-        margin: 0px auto;
-        background-color: #5C33AD;
-    }  
-      
-    header {  
-        text-align: center;
-        padding: 30px 0px 20px; 
-        background-color: #9980CC;
-    }  
-      
-    header h1 {  
-        display: inline;  
-        font-size: 70px;  
-        color: #ffffff;
-        font-weight: normal;
-    }  
-      
-    header h1 a:link, header h1 a:visited {  
-        color: #ffffff;  
-        text-decoration: none;  
-    }  
-      
-    header h2 {  
-        font-size: 25px;  
-        color: #C2B2D1;  
-        font-weight: normal;
+body {  
+    margin: 0px auto;
+    background-color: #5C33AD;
+}  
 
-    }  
+header {  
+    text-align: center;
+    padding: 30px 0px 20px; 
+    background-color: #9980CC;
+}  
 
-    #form_style {
-       padding: 40px 0px 30px; 
-       background-color: #9980CC;
-       color: #fff;
-    }
+header h1 {  
+    display: inline;  
+    font-size: 70px;  
+    color: #ffffff;
+    font-weight: normal;
+}  
 
-input {
+header h1 a:link, header h1 a:visited {  
+    color: #ffffff;  
+    text-decoration: none;  
+}  
+
+header h2 {  
+    font-size: 25px;  
+    color: #C2B2D1;  
+    font-weight: normal;
+
+}  
+
+#form_style {
+   padding: 40px 0px 30px; 
+   background-color: #9980CC;
+   color: #fff;
+}
+
+.inputs {
     vertical-align: middle;
     display: inline-block;
     border-radius: 0px;
@@ -47,45 +47,63 @@ input:focus {
     background-color: #fff;
 }
 
-#submit {
+.submit {
     color: #5C33AD;
     cursor: pointer;
 }
 
-#submit:hover {
+#form_style a {
+    text-decoration: none;
+}
+
+.submit:hover {
     color: #330066;
 }
-      
-    #main {  
-        margin: 0 0 20px;  
-    }  
 
-    #nums {
-        text-align: center;
-    }
+#random {
+    color: #5C33AD;
+    padding: 1px 2px 0px 2px;
+}
 
-    #plain {
-        margin-top: 30px;
-        font-size: 40px;
-        color: #C2B2D1;
-        padding: 5px 10px 5px 10px;
+#random:hover {
+    color: #330066;
+}
 
-    }
+#main {  
+    margin: 0 0 20px;  
+}  
 
-    #english {
-        margin-top: 10px;
-        font-size: 40px;
-        color: #330066;
-        padding: 5px 10px 5px 10px;
-    }
-      
-    p {  
-        margin: 0 0 5px;
-    }
+#nums {
+    text-align: center;
+}
 
-    footer {
-        position: absolute;
-        bottom: 10px;
-        right: 50px;
-        color: #C2B2D1;
-    }
+#plain {
+    margin-top: 30px;
+    font-size: 40px;
+    color: #C2B2D1;
+    padding: 5px 10px 5px 10px;
+
+}
+
+#english {
+    margin-top: 10px;
+    font-size: 40px;
+    color: #330066;
+    padding: 5px 10px 5px 10px;
+}
+
+p {  
+    margin: 0 0 5px;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    right: 50px;
+    color: #C2B2D1;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}

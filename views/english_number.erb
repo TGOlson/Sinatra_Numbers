@@ -1,9 +1,11 @@
 <div id="nums">
   <div id="form_style">
 	<form action="/redirect" method="get">  
- 	 <input type="text" name="number">  
- 	 <input id="submit" type="submit" value="submit">  
-	</form>
+ 	 <input class="inputs" type="text" name="number">  
+ 	 <input class="inputs submit" type="submit" value="submit">  
+	
+ 	 <a href="/random" class="inputs submit" id="random"><i class="fa-random"></i></a>  
+</form>
   </div>
 
 	<p id="plain"><%= @num %></p>
