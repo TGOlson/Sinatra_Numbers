@@ -23,7 +23,6 @@
       
     header h2 {  
         font-size: 25px;  
-        font-style: italic;  
         color: #C2B2D1;  
         font-weight: normal;
 
@@ -34,6 +33,28 @@
        background-color: #9980CC;
        color: #fff;
     }
+
+input {
+    vertical-align: middle;
+    display: inline-block;
+    border-radius: 0px;
+    border: 0px;
+    background-color: #C2B2D1;
+    font-size: 20px;
+}
+
+input:focus {
+    background-color: #fff;
+}
+
+#submit {
+    color: #5C33AD;
+    cursor: pointer;
+}
+
+#submit:hover {
+    color: #330066;
+}
       
     #main {  
         margin: 0 0 20px;  
